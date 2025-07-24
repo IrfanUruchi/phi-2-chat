@@ -2,7 +2,7 @@
 
 **A fine-tuned version of Microsoft's Phi-2 (2.7B) for conversational AI, trained on UltraChat and other datasets.**
 
-[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Open%20in%20Hub-blue)]((https://huggingface.co/Irfanuruchi/phi-2-chat))  
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Open%20in%20Hub-blue)](https://huggingface.co/Irfanuruchi/phi-2-chat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
 ## Overview  
