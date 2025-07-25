@@ -1,13 +1,13 @@
 # phi-2-chat
 
-**A fine-tuned conversational variant of Microsoft's Phi-2 (2.7B) optimized for dialogue tasks**
+**A fine-tuned conversational variant of Microsoft's Phi-2 (2B) optimized for dialogue tasks**
 
 [![Model License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Hugging Face Hub](https://img.shields.io/badge/%F0%9F%A4%97%20Model%20Hub-Open-blue)](https://huggingface.co/Irfanuruchi/phi-2-chat)
 [![GitHub Repository](https://img.shields.io/badge/🔗%20GitHub-Open-24292e)](https://github.com/IrfanUruchi/phi-2-chat)
 
 ## Overview  
-`phi-2-chat` is a fine-tuned variant of Microsoft's [Phi-2](https://huggingface.co/microsoft/phi-2) (2.7B parameters) optimized for dialogue tasks. Key features:
+`phi-2-chat` is a fine-tuned variant of Microsoft's [Phi-2](https://huggingface.co/microsoft/phi-2) (2B parameters) optimized for dialogue tasks. Key features:
 
 - **Base Model**: Phi-2 (2.7B parameters, MIT licensed).  
 - **Training Data**: Primarily [UltraChat](https://github.com/thunlp/UltraChat) with additional datasets.
@@ -21,7 +21,7 @@ Load the model from Hugging Face Hub:
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model = AutoModelForCausalLM.from_pretrained(
-    "IrfanUruchi/phi-2-chat",
+    "Irfanuruchi/phi-2-chat",
     trust_remote_code=True,
     device_map="auto"
 )
